@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora|Public+Sans");
+
+@import url("compenents/container.css");
+@import url("compenents/button.css");
+@import url("compenents/banner.css");
+@import url("compenents/card.css");
+body {
+   font-family: 'Lora': sans-serif;
+   font-size: 20px;
+   font-style: !important;
+   margin: 0px;
+}
+h1{
+	font-family:'Public Sans', sans-serif ;
+	font-weight: bolder;
+	font-size: 60px;
+	font-style: italic;
+}
+h2{
+	font-family: 'Lora':serif;
+   font-size: 30px;
+   font-style: !important;
+}
+a {
+	text-decoration: none;
+}
+
+.image{
+   width: 150px;
+   height: 150px;
+}
+
+h3{
+	flex-grow: 1;
+	padding-left: 20px;
+	font-weight: bold;
+}
